@@ -4,4 +4,6 @@ var animal = animal.toUpperCase();
 
 var text = text.replace('Papugi', animal);
 
-console.log(text.substr(0, 44));
+var x = text.length;
+var y = text.substr(-x/2, x/2);
+console.log(y);
